@@ -1,14 +1,4 @@
-.intro{
-  max-width: 1200px;
-  padding: 40px 20px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 4fr 8fr;
-  gap: 100px;
-  align-items: center;
-}
-
-.intro h1{
+.intro h1 {
   font-size: 4.5rem;
   line-height: 1.125;
   margin-bottom: 1.875rem;
@@ -16,11 +6,7 @@
   position: relative;
 }
 
-.text {
-  padding: 50px;
-}
-
-.intro h1::before{
+.intro h1::before {
   content: "";
   display: block;
   width: 100px;
@@ -32,3 +18,36 @@
   z-index: -1;
 }
 
+@media (max-width: 1000px) {
+  .intro h1 {
+    font-size: 3rem;
+  }
+  .intro h1::before {
+    width: 30px;
+    height: 10px;
+    top: -5px;
+    left: 3px;
+  }
+}
+@media (max-width: 800px) {
+  .intro {
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+  .intro h1 {
+    font-size: 2rem;
+  }
+  .intro h1::before {
+    top: -7px;
+    left: 2px;
+  }
+}
+
+@media (max-width: 400px) {
+  .intro img {
+    grid-template-columns: 1fr;
+  }
+  .intro img {
+    display: none;
+  }
+}

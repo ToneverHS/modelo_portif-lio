@@ -1,20 +1,64 @@
-body{
+body {
   font-family: "Fira Sans", Arial, Helvetica, sans-serif;
   margin: 0px;
   color: #4d4d4d;
 }
 
-h1, h2, h3, p{
+h1,
+h2,
+h3,
+p {
   margin: 0px;
 }
 
-ul{
+ul {
   margin: 0px;
   padding: 0px;
   list-style: none;
 }
 
-img{
+img {
   max-width: 100%;
   display: block;
+}
+
+.sub-t {
+
+}
+
+.center{
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 4fr 8fr;
+  gap: 100px;
+  align-items: center;
+}
+.grid-2{
+  box-sizing: border-box;
+  padding: 1.8rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 1px;
+}
+.text {
+  padding: 50px;
+}
+
+.text p {
+  color: #4d4d4d;
+}
+
+.graduacoes{
+  background: red;
+}
+
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;  
 }
