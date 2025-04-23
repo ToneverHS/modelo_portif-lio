@@ -1,0 +1,110 @@
+#formacao{
+  background: #333333;
+  position: relative;
+}
+#formacao h2 {
+  color: #1c1c1c;
+  position: relative;
+  top: 40px;
+}
+.color-f p{
+ color: #b3b3b3;
+}
+.color-f strong{
+  color: #f2f9ff;
+}
+.facul-t{
+  color: #999999;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.facul-c{
+  flex: 1;
+  color: #f2f9ff;
+  font-size: 1.125rem;
+  line-height: 1.4;
+  margin-bottom: 40px;
+  position: relative;  
+}
+.facul-c::before{
+  position: absolute;
+  content: "";
+  display: block;
+  width: 3px;
+  height: 20px;
+  background: linear-gradient(#99c2ff, #004c99);
+  left: -13px;
+  top: 2px;
+}
+.facul-i{
+  color: #b3b3b3;
+  margin-top: 40px;
+  font-size: 1.125rem;
+}
+.facul-l{
+  position: relative;
+  gap: 20px;
+  margin-bottom: 60px;
+  margin-left: 50px;
+}
+.facul{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  width: 190px;
+  height: 180px;
+  background: #1c1c1c!important;
+  border-radius: 4px;
+}
+.cursos-2{
+  margin-bottom: 60px;
+}
+.form-e{
+  margin-left: 50px;
+  color: #f2f9ff;
+}
+.form-e h3{
+  font-size: 0.875rem;
+  line-height: 1.4;
+  color: #999999;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  position: relative;
+}
+.form-e h3::before{
+  display: block;
+  content: "";
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: -36px;
+  top: -4px;
+}
+.cursos-2 h3::before{ 
+  background: url("./img/cursos.svg") no-repeat center center;  
+}
+.idiomas h3::before{
+  background: url("./img/idiomas.svg") no-repeat center center;
+}
+.form-e li{
+  font-size: 1.125rem;
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+.form-e span{
+  color: #b3b3b3;
+}
+.cursos-2 li{
+  display: flex;
+  justify-content: space-between;
+}
+#formacao::after{
+  content: "";
+  display: block;
+  width: 130px;
+  height: 150px;
+  background: url('./img/detalhe.svg') no-repeat center;
+  position: absolute;
+  bottom: -75px;
+}
