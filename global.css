@@ -16,6 +16,7 @@ ul {
 }
 img {
   max-width: 100%;
+  height: auto;
   display: block;
 }
 .center{
@@ -51,6 +52,9 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;  
+}
+.footer, .intro, .exp{
+  padding: 40px 50px;
 }
 @media (max-width: 1000px) {
   .grid h1 {
